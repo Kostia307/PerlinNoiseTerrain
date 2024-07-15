@@ -26,9 +26,10 @@ void draw() {
     }
     yoff += 0.2;
   }
-  background(0);
-  stroke(255);
-  noFill();
+  background(204,204,255);
+  noStroke();
+  fill(0,204,0);
+  pointLight(255, 255, 255, 140, 160, 144);
 
   translate(width / 2, height / 2+50);
   rotateX(PI/2.7);
